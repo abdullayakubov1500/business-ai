@@ -2,6 +2,7 @@
 const nextConfig = {
   cacheComponents: true,
   partialPrefetching: true,
+  serverExternalPackages: ["@libsql/client"],
   turbopack: {
     rules: {
       "*.css": {
