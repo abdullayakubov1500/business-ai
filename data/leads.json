@@ -1,0 +1,24 @@
+[
+  {
+    "id": "2350ffec-7c5e-4837-8cd1-1b88ab369155",
+    "createdAt": "2026-10-24T14:52:30.732Z",
+    "name": "Игорь",
+    "phone": "+998501234567",
+    "siteType": "Магазин",
+    "comment": "Когда будет готово?",
+    "source": "form",
+    "status": "new",
+    "conversation": []
+  },
+  {
+    "id": "b952aae8-dd22-43c1-abee-ee168866849f",
+    "createdAt": "2026-10-24T14:41:35.750Z",
+    "name": "Вася",
+    "phone": "+998971234567",
+    "siteType": "Сайт компании",
+    "comment": "ыфвафы вафыв афы",
+    "source": "form",
+    "status": "new",
+    "conversation": []
+  }
+]
