@@ -3,7 +3,15 @@ import { createLead } from "@/lib/leads";
 
 export async function POST(request) {
   try {
-    const body = await request.json();
+    let body;
+    try {
+      body = await request.json();
+    } catch {
+      return NextResponse.json(
+        { ok: false, error: "Некорректные данные заявки" },
+        { status: 400 },
+      );
+    }
     const { lead, duplicate } = await createLead({
       name: body.name,
       phone: body.phone,
